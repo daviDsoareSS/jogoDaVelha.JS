@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Jogo da Velha </title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway:wght@300&family=Roboto+Mono:wght@500&display=swap');
+    </style>
+  </head>
+  <body>
+    
+    <div class="group">
+      <h3>REDES SOCIAIS</h3>
+      <p>David</p><a href="https://www.instagram.com/david.soaress_/" target="_blank"><img src="images/David.jpeg" alt=""></a>
+      <p>Maria</p><a href="https://www.instagram.com/madu_fi/" target="_blank"><img src="images/fiori.jpg" alt=""></a>
+      <p>Guilherme</p><a href="https://www.instagram.com/guiii_leo/" target="_blank"><img src="images/Gui.jpg" alt=""></a>
+    </div>
+    <div class="board" data-board>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winning-message" data-winning-message>
+      <p class="winning-message-text" data-winning-message-text>X VENCEU!</p>
+      <button class="winning-message-button" data-restart-button>
+        Reiniciar!
+      </button>
+       <P id="textApresentation">Alunos Etec ZL: David Soares, Guilherme Léo, Maria Eduarda</P>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
