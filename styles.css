@@ -28,6 +28,12 @@ body {
   align-items: center;
   grid-template-columns: repeat(3, auto);
 }
+h1{
+  color: rgb(242, 242, 154);
+  text-shadow: 2px 4px 1px black;
+  text-align: center;
+  display: none;
+}
 
 .board.x .cell:not(.x):not(.circle):hover::after,
 .board.x .cell:not(.x):not(.circle):hover::before,
@@ -191,4 +197,16 @@ h3{
   color: white;
   font-size: large;
   margin-top: 15vw;
+}
+@media (max-width:700px){
+  #textApresentation{
+    display: none;
+  }
+  h1{
+    margin-left: 22vw;
+    display: flex;
+  }
+  .group{
+    display: none;
+  }
 }
